@@ -17,9 +17,9 @@ L'obiettivo principale è stato l'implementazione di un componente hardware conf
 Il modulo da realizzare include tre ingressi a 1 bit dedicati alla gestione dei segnali di clock, reset e start. Sono inoltre presenti due ingressi principali per i dati: un segnale a 8 bit (i_k) e uno a 16 bit (i_add). L’uscita fornisce un segnale a 1 bit (o_done) per indicare il completamento dell’elaborazione.
 
 In aggiunta, il modulo comunica con una memoria RAM attraverso i seguenti segnali:
-	•	Due uscite a 1 bit: una per abilitare l’accesso alla RAM (in lettura e scrittura, o_mem_en) e una per la sola abilitazione in scrittura (o_mem_we).
-	•	Un’uscita a 16 bit (o_mem_addr) che specifica l’indirizzo di memoria da utilizzare.
-	•	Due porte dati a 8 bit: una in uscita (o_mem_data) e una in ingresso (i_mem_data), destinate allo scambio dei dati con la RAM.
+	• Due uscite a 1 bit: una per abilitare l’accesso alla RAM (in lettura e scrittura, o_mem_en) e una per la sola abilitazione in scrittura (o_mem_we).
+	• Un’uscita a 16 bit (o_mem_addr) che specifica l’indirizzo di memoria da utilizzare.
+	• Due porte dati a 8 bit: una in uscita (o_mem_data) e una in ingresso (i_mem_data), destinate allo scambio dei dati con la RAM.
 
 - **Ingressi**:
   - `i_clk` (1 bit) – Segnale di clock.
