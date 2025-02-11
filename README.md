@@ -9,6 +9,7 @@ Questo progetto è stato sviluppato come prova finale per il corso di **Reti Log
 L'obiettivo principale è stato l'implementazione di un componente hardware conforme a una specifica assegnata.
 
 
+
 ## Specifiche
 
 ### Descrizione Generale
@@ -53,6 +54,7 @@ Le sequenze vengono lette dalla memoria a partire dall'indirizzo iniziale fornit
 - L'elaborazione viene eseguita **entro 20 cicli di clock**.
 - Il segnale `o_done` viene impostato a `1` per un solo ciclo di clock alla conclusione di ogni richiesta.
 - Il segnale `i_start` rimane basso (`0`) fino alla successiva elaborazione.
+
 
 
 ## Implementazione
