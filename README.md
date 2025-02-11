@@ -46,11 +46,14 @@ Il modulo richiede tre segnali di ingresso fondamentali: un segnale di clock (i_
 
 Durante l’inizializzazione, DONE viene impostato a 0, e l’elaborazione inizia solamente quando START è alto. START rimane a 1 fino al termine del processo, in cui viene innalzato il segnale DONE. Un nuovo comando START può essere ricevuto non appena DONE torna al livello basso, senza che sia necessario un segnale di RESET.
 
+Per un'analisi più approfondita delle specifiche richieste, fai riferimento a:  
+📄 **Specifiche**: [Specifica.pdf](./Specifica/PFRL_Specifica_23_24_V_22_12_2023.pdf)
+
 ## Implementazione
 
 L'implementazione del modulo hardware è fornita nel seguente file **VHDL**:
 
-📂 **Codice Implementazione**: [`Progetto.vhd`](./Progetto.vhd)
+📂 **Codice Implementazione**: [Progetto.vhd](./Progetto.vhd)
 
 Per una documentazione completa del progetto, consulta il report:  
 📄 **Documentazione**: [Report.pdf](./Report/Report.pdf)
