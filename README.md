@@ -21,13 +21,13 @@ In aggiunta, il modulo comunica con una memoria RAM attraverso i seguenti segnal
  - Un’uscita a 16 bit (o_mem_addr) che specifica l’indirizzo di memoria da utilizzare.
  - Due porte dati a 8 bit: una in uscita (o_mem_data) e una in ingresso (i_mem_data), destinate allo scambio dei dati con la RAM.
 
-- **Ingressi**:
+ **Ingressi**:
   - `i_clk` (1 bit) – Segnale di clock.
   - `i_rst` (1 bit) – Reset asincrono.
   - `i_start` (1 bit) – Segnale di avvio.
   - `i_k` (8 bit) – Numero di parole da elaborare.
   - `i_add` (16 bit) – Indirizzo iniziale della sequenza in RAM.
-- **Uscite**:
+ **Uscite**:
   - `o_done` (1 bit) – Indica la terminazione dell’elaborazione.
   - `o_mem_en` (1 bit) – Abilitazione della RAM (lettura/scrittura).
   - `o_mem_we` (1 bit) – Abilitazione della scrittura in RAM.
