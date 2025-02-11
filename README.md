@@ -43,7 +43,7 @@ Il modulo accede a una sequenza di K parole W, memorizzata a partire da un indir
 
 Il modulo richiede tre segnali di ingresso fondamentali: un segnale di clock (i_clk), un reset asincrono (i_rst) e un segnale di avvio (i_start), insieme a due segnali dati (i_add a 16 bit e i_k a 10 bit). L’uscita principale è il segnale i_done, che indica il completamento dell’elaborazione. Il funzionamento del modulo è sincrono sul fronte di salita del clock, eccetto per il segnale di reset.
 
-Durante l’inizializzazione, DONE viene impostato a 0, e l’elaborazione inizia solamente quando START è alto. START rimane a 1 fino al termine del processo, in cui viene innalzato il segnale DONE. Per accettare un secondo (o succeessivo) comando START, non è necessario che il modulo venga resettato.
+Durante l’inizializzazione, DONE viene impostato a 0, e l’elaborazione inizia solamente quando START è alto. START rimane a 1 fino al termine del processo, in cui viene innalzato il segnale DONE. Un nuovo comando START può essere ricevuto non appena DONE torna al livello basso, senza che sia necessario un segnale di RESET.
 
 ## Implementazione
 
