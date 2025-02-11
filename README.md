@@ -27,6 +27,7 @@ In aggiunta, il modulo comunica con una memoria RAM attraverso i seguenti segnal
   - `i_start` (1 bit) – Segnale di avvio.
   - `i_k` (8 bit) – Numero di parole da elaborare.
   - `i_add` (16 bit) – Indirizzo iniziale della sequenza in RAM.
+
  **Uscite**:
   - `o_done` (1 bit) – Indica la terminazione dell’elaborazione.
   - `o_mem_en` (1 bit) – Abilitazione della RAM (lettura/scrittura).
