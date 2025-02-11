@@ -49,9 +49,9 @@ Durante l’inizializzazione, DONE viene impostato a 0, e l’elaborazione inizi
 
 L'implementazione del modulo hardware è fornita nel seguente file **VHDL**:
 
-📂 **Codice Implementazione**: `modulo_sequenza.vhd`
+📂 **Codice Implementazione**: `Progetto.vhd`
 
 Per una documentazione completa del progetto, consulta il report:  
-📄 **Documentazione**: [report.pdf](./Report.pdf)
+📄 **Documentazione**: [Report.pdf](./Report.pdf)
 
 ---
