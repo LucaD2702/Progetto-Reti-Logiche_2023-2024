@@ -53,6 +53,6 @@ L'implementazione del modulo hardware è fornita nel seguente file **VHDL**:
 📂 **Codice Implementazione**: [`Progetto.vhd`](./Progetto.vhd)
 
 Per una documentazione completa del progetto, consulta il report:  
-📄 **Documentazione**: [Report.pdf](./Report.pdf)
+📄 **Documentazione**: [Report.pdf](./Report/Report.pdf)
 
 ---
