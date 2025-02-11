@@ -1,12 +1,13 @@
 # Progetto-Reti-Logiche_2023-2024
 Prova Finale - Progetto di Reti Logiche 2023/2024 - Politecnico di Milano
 
+---
+
 ## Panoramica
 
 Questo progetto è stato sviluppato come prova finale per il corso di **Reti Logiche** presso il **Politecnico di Milano**.  
 L'obiettivo principale è stato l'implementazione di un componente hardware conforme a una specifica assegnata.
 
----
 
 ## Specifiche
 
@@ -29,9 +30,8 @@ Il modulo implementato presenta:
 
 Il modulo interagisce con la memoria **RAM** per acquisire ed elaborare dati, seguendo il protocollo di comunicazione definito.
 
----
 
-### ⚙️ Funzionamento
+### Funzionamento
 
 Quando riceve un segnale di **reset**, la macchina torna allo stato iniziale:
 - `o_done = '0'` (elaborazione non ancora terminata).
@@ -54,7 +54,6 @@ Le sequenze vengono lette dalla memoria a partire dall'indirizzo iniziale fornit
 - Il segnale `o_done` viene impostato a `1` per un solo ciclo di clock alla conclusione di ogni richiesta.
 - Il segnale `i_start` rimane basso (`0`) fino alla successiva elaborazione.
 
----
 
 ## Implementazione
 
